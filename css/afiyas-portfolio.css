@@ -130,6 +130,7 @@ blockquote {
   margin: auto;
   justify-content: center;
   align-items: center;
+  padding: 0px 50px 0px 50px;
 }
 
 .heading-jumbo {
@@ -140,7 +141,7 @@ blockquote {
 .paragraph-tiny {
   display: inline-block;
   padding-left: 12px;
-  opacity: 0.3;
+  opacity: 0.7;
   color: #fff;
   font-size: 12px;
   line-height: 20px;
@@ -180,18 +181,14 @@ blockquote {
 
 .my-story {
   margin-top: -70px;
-  padding-top: 0px;
-  padding-bottom: 180px;
-  padding-left: 90px; right: 90 px;
+  padding: 0px 90px 180px 90px;
   border-radius: 0px;
   background-color: rgba(255, 255, 255, 0);
   opacity: 1;
 }
 .my-story2 {
   margin-top: -70px;
-  padding-top: 0px;
-  padding-bottom: 180px;
-  padding-right: 90 px;
+  padding: 0px 0px 180px;
   border-radius: 0px;
   background-color: rgba(255, 255, 255, 0);
   opacity: 1;
@@ -964,7 +961,7 @@ blockquote {
   margin-top: 0px;
   margin-bottom: auto;
   font-family: Montserrat, sans-serif;
-  color: rgba(0, 30, 151, 0.51);
+  color: rgb(0, 26, 128);
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1013,7 +1010,7 @@ blockquote {
 }
 
 .hey-there.cc-about-light {
-  opacity: 0.6;
+  opacity: 0.9;
   font-family: Inconsolata, monospace;
   color: #1a1b1f;
   font-size: 14px;
@@ -1041,13 +1038,14 @@ blockquote {
   width: 100px;
   height: 1px;
   align-items: center;
-  background-color: #8e9fd6;
+  justify-items: center;
+  background-color: #00124d;
 }
 
 .grid-9 {
   padding-bottom: 16px;
   grid-column-gap: 34px;
-  grid-template-columns: 0.25fr 3fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
 }
 
@@ -1129,7 +1127,7 @@ blockquote {
   padding-top: 0px;
   padding-left: 0px;
   font-family: Montserrat, sans-serif;
-  color: rgba(1, 5, 48, 0.43);
+  color: rgba(1, 5, 48, 0.918);
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1236,37 +1234,19 @@ blockquote {
   padding-right: 300px;
   padding-left: 300px;
   justify-content: center;
+ 
 }
 
 .projectline-copy {
-  padding-top: 0px;
-  padding-left: 0px;
+  padding-top: 100px;
+  padding-left: 15%;
   font-family: Montserrat, sans-serif;
-  color: rgba(1, 5, 48, 0.43);
+  color: rgba(1, 5, 48, 0.877);
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.projectline-copy {
-  padding-top: 0px;
-  padding-left: 0px;
-  font-family: Montserrat, sans-serif;
-  color: rgba(1, 5, 48, 0.43);
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.projectline-copy {
-  padding-top: 0px;
-  padding-left: 150px;
-  font-family: Montserrat, sans-serif;
-  color: rgba(1, 5, 48, 0.43);
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
 
 
 
@@ -1795,3 +1775,4 @@ blockquote {
   .text-span-2 {
     display: inline;
   }
+}
